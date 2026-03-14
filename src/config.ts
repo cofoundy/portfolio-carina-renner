@@ -21,7 +21,8 @@ export const siteConfig = {
     email: "carina.renner@gmail.com",
     linkedin: "https://www.linkedin.com/in/carinalouiserenner/",
     instagram: "https://www.instagram.com/carinalouisesings/",
-    audible: "https://www.acx.com/narrator?p=A3DG59M7AGM0YCa",
+    audible: "https://www.acx.com/narrator?p=A3DG59M7AGM0YC",
+    soundcloud: "https://soundcloud.com/carinalouiserenner/tracks",
   },
 
   aboutMe:
