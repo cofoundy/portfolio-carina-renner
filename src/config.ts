@@ -21,10 +21,11 @@ export const siteConfig = {
     email: "carina.renner@gmail.com",
     linkedin: "https://www.linkedin.com/in/carinalouiserenner/",
     instagram: "https://www.instagram.com/carinalouisesings/",
+    audible: "https://www.acx.com/narrator?p=A3DG59M7AGM0YCa",
   },
 
   aboutMe:
-    "I am a multidisciplinary artist, educator, and certified sound healing practitioner based between Berkeley and Arequipa, Per\u00fa. With a BFA in Drama from NYU Tisch School of the Arts and a Certificate in Sound & Music Healing from the California Institute of Integral Studies, I bring over two decades of experience in theater, music composition, voiceover, and early childhood education. I co-founded the award-winning Masamama Bakery & Caf\u00e9 in Arequipa, and currently serve as a lead educator at Tata Educaci\u00f3n, a Waldorf and Montessori-inspired outdoor learning center. My work is rooted in the belief that voice is medicine\u2014a tool for connection, healing, and creative expression.",
+    "Mother to two young children, lifelong creative and learner. Carina is an actor, writer, editor, vocalist, songwriter, educator and healing practitioner. A multi-disciplinary medicine woman. 22 years experience educating young people in a variety of roles; group and 1:1 educator/tutor. 25 years of live performance, including composition, writing and collaboration for theater, music, film, tv and dance. Co-founder of the award\u2011winning Masamama Bakery in Arequipa, Per\u00fa.",
 
   skills: [
     "Voice Performance",
