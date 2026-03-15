@@ -3,28 +3,29 @@ import { siteConfig } from "../config";
 
 const tracks = [
   {
-    title: "The Ocean Refuses No River ~ Live at Grace Cathedral",
-    url: "https://soundcloud.com/carinalouiserenner/the-ocean-refuses-no-river-live-at-grace-cathedral",
+    title: "Narration & VO Reel 2025",
+    credit: "Music and prod. by Rodrigo Ponce",
+    src: "/audio/narration-vo-reel-2025.mp3",
   },
   {
-    title: "Open The Ears Of My Heart",
-    url: "https://soundcloud.com/carinalouiserenner/open-the-ears-of-my-heart",
+    title: "Someone To Watch Over Me",
+    credit: "G. Gershwin — guitar & prod. Benjamin Scheuer, 2013",
+    src: "/audio/someone-to-watch-over-me.mp3",
   },
   {
-    title: "Learning Mantras with Ladu Baba",
-    url: "https://soundcloud.com/carinalouiserenner/learning-mantras-with-ladu",
+    title: "Justine",
+    credit: "Composition & vox Carina Renner, guitar & prod. Benjamin Scheuer, 2013",
+    src: "/audio/justine.mp3",
   },
   {
-    title: "Something Like A Poem Out Of A Dream",
-    url: "https://soundcloud.com/carinalouiserenner/something-like-a-poem-out-of-a",
+    title: "Leaving California",
+    credit: "Composition, prod. & guitar Benjamin Scheuer",
+    src: "/audio/leaving-california.mp3",
   },
   {
-    title: "canción de tabaco",
-    url: "https://soundcloud.com/carinalouiserenner/soga-de-tabaco",
-  },
-  {
-    title: "Wild woman sweet",
-    url: "https://soundcloud.com/carinalouiserenner/wild-woman-sweet",
+    title: "I'll Keep It With Mine",
+    credit: "Bob Dylan — guitar & prod. Benjamin Scheuer, 2013",
+    src: "/audio/ill-keep-it-with-mine.mp3",
   },
 ];
 ---
@@ -36,17 +37,18 @@ const tracks = [
       <div class="w-16 h-1 mt-3 rounded-full" style={`background-color: ${siteConfig.highlightColor}`}></div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="space-y-4">
       {tracks.map((track, index) => (
-        <div class={`reveal stagger-${index + 1}`}>
-          <iframe
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(track.url)}&color=%23${siteConfig.accentColor.slice(1)}&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`}
-          ></iframe>
+        <div class={`reveal stagger-${index + 1} p-4 rounded-xl bg-gray-50`} style={`border: 1px solid ${siteConfig.accentColor}12`}>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+            <div class="flex-1 min-w-0">
+              <h3 class="text-base font-semibold" style={`color: ${siteConfig.accentColor}`}>{track.title}</h3>
+              <p class="text-xs text-gray-500 mt-0.5">{track.credit}</p>
+            </div>
+            <audio controls preload="none" class="w-full sm:w-64 h-10 flex-shrink-0">
+              <source src={track.src} type="audio/mpeg" />
+            </audio>
+          </div>
         </div>
       ))}
     </div>
@@ -59,7 +61,7 @@ const tracks = [
         class="inline-flex items-center gap-2 text-sm font-medium transition-colors duration-300 hover:opacity-80"
         style={`color: ${siteConfig.highlightColor}`}
       >
-        View all tracks on SoundCloud
+        More on SoundCloud
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
         </svg>
