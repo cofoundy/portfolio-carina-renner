@@ -51,18 +51,6 @@ export const siteConfig = {
       skills: ["Education", "Curriculum Design", "Waldorf", "Montessori"],
     },
     {
-      name: "Masamama Bakery & Caf\u00e9",
-      description: "Co-founded an award-winning bakery and caf\u00e9 in Arequipa. Led operations, recipe creation, graphic design, copywriting, social media marketing, and front-of-house management.",
-      link: "",
-      skills: ["Entrepreneurship", "Operations", "Branding", "Hospitality"],
-    },
-    {
-      name: "Gana Rasta \u2014 Song Route",
-      description: "A personal artistic journey through India collecting traditional songs from people along the way\u2014sharing music across cultures and documenting the songs that families pass down through generations.",
-      link: "",
-      skills: ["Music", "Cultural Exchange", "Storytelling", "Travel"],
-    },
-    {
       name: "Elements \u2014 UPN 44",
       description: "Television host and producer for a youth-oriented music and culture TV show. Appeared on-camera, improvised, wrote and produced segments broadcast on UPN 44 in San Francisco.",
       link: "",
