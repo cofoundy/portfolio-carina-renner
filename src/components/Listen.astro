@@ -1,0 +1,69 @@
+---
+import { siteConfig } from "../config";
+
+const tracks = [
+  {
+    title: "The Ocean Refuses No River ~ Live at Grace Cathedral",
+    url: "https://soundcloud.com/carinalouiserenner/the-ocean-refuses-no-river-live-at-grace-cathedral",
+  },
+  {
+    title: "Open The Ears Of My Heart",
+    url: "https://soundcloud.com/carinalouiserenner/open-the-ears-of-my-heart",
+  },
+  {
+    title: "Learning Mantras with Ladu Baba",
+    url: "https://soundcloud.com/carinalouiserenner/learning-mantras-with-ladu",
+  },
+  {
+    title: "Something Like A Poem Out Of A Dream",
+    url: "https://soundcloud.com/carinalouiserenner/something-like-a-poem-out-of-a",
+  },
+  {
+    title: "canción de tabaco",
+    url: "https://soundcloud.com/carinalouiserenner/soga-de-tabaco",
+  },
+  {
+    title: "Wild woman sweet",
+    url: "https://soundcloud.com/carinalouiserenner/wild-woman-sweet",
+  },
+];
+---
+
+<section id="listen" class="py-12 md:py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6 lg:px-8">
+    <div class="mb-10 reveal-left">
+      <h2 class="text-3xl md:text-4xl font-bold" style={`color: ${siteConfig.accentColor}`}>Listen</h2>
+      <div class="w-16 h-1 mt-3 rounded-full" style={`background-color: ${siteConfig.highlightColor}`}></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {tracks.map((track, index) => (
+        <div class={`reveal stagger-${index + 1}`}>
+          <iframe
+            width="100%"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(track.url)}&color=%23${siteConfig.accentColor.slice(1)}&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false`}
+          ></iframe>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-6 text-center reveal">
+      <a
+        href={siteConfig.social.soundcloud}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 text-sm font-medium transition-colors duration-300 hover:opacity-80"
+        style={`color: ${siteConfig.highlightColor}`}
+      >
+        View all tracks on SoundCloud
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
