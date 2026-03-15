@@ -1,0 +1,35 @@
+---
+import { siteConfig } from "../config";
+---
+
+<section class="py-12 md:py-16" style="background-color: #faf7f4">
+  <div class="max-w-6xl mx-auto px-6 lg:px-8">
+    <div class="mb-10 reveal-left">
+      <h2 class="text-3xl md:text-4xl font-bold" style={`color: ${siteConfig.accentColor}`}>Gallery</h2>
+      <div class="w-16 h-1 mt-3 rounded-full" style={`background-color: ${siteConfig.highlightColor}`}></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="reveal stagger-1 group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="/gallery-studio.jpg" alt="Carina in the recording studio" class="w-full h-72 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+          <p class="text-white text-sm font-medium p-4">Voice & Recording</p>
+        </div>
+      </div>
+
+      <div class="reveal stagger-2 group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="/gallery-1.jpg" alt="Carina performing outdoors" class="w-full h-72 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+          <p class="text-white text-sm font-medium p-4">Performance & Play</p>
+        </div>
+      </div>
+
+      <div class="reveal stagger-3 group relative overflow-hidden rounded-xl shadow-lg">
+        <img src="/gallery-2.jpg" alt="Carina at sunset" class="w-full h-72 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+          <p class="text-white text-sm font-medium p-4">Life Between Worlds</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

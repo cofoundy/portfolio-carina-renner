@@ -3,9 +3,9 @@ export const siteConfig = {
   title: "Multidisciplinary Artist | Educator | Sound Healer",
   description: "Performing artist, educator, and certified sound healing practitioner with 20+ years of experience in theater, music, voiceover, and early childhood education.",
 
-  // 2-color system: deep petrol teal + warm amber/honey
-  accentColor: "#2c5f5f",
-  highlightColor: "#c4956a",
+  // 2-color system: teal (gem turquoise) + purple (gem amethyst)
+  accentColor: "#0d9488",
+  highlightColor: "#a855f7",
 
   // Hero stats
   stats: [
