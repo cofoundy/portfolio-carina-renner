@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Carina Renner",
-  title: "Multidisciplinary Artist | Educator | Sound Healer",
-  description: "Performing artist, educator, and certified sound healing practitioner with 20+ years of experience in theater, music, voiceover, and early childhood education.",
+  title: "Performing Artist | Educator | Writer",
+  description: "Performing artist, poet, songwriter, educator, and group facilitator with 22+ years of experience guiding young people and 32 years of live performance.",
 
   // 2-color system: teal (gem turquoise) + purple (gem amethyst)
   accentColor: "#0d9488",
@@ -15,7 +15,7 @@ export const siteConfig = {
   ],
 
   // Hero tagline
-  tagline: "Performing artist, poet, songwriter, and educator weaving voice, music, and healing into transformative experiences.",
+  tagline: "Performing artist, poet, songwriter, educator, and group facilitator. 22 years experience guiding young people. 32 years of live performance.",
 
   social: {
     email: "carina.renner@gmail.com",
@@ -29,18 +29,20 @@ export const siteConfig = {
     "Mother to two young children, lifelong creative and learner. Carina is an actor, writer, editor, vocalist, songwriter, educator and healing practitioner. A multi-disciplinary medicine woman. 22 years experience educating young people in a variety of roles; group and 1:1 educator/tutor. 25 years of live performance, including composition, writing and collaboration for theater, music, film, tv and dance. Co-founder of the award\u2011winning Masamama Bakery in Arequipa, Per\u00fa.",
 
   skills: [
+    "Early Childhood Education",
+    "Copywriting & Editing",
+    "Graphic Design",
+    "Social Media Marketing",
+    "Video Production",
+    "Garageband",
+    "Audacity",
+    "Adobe Illustrator",
+    "Photoshop",
+    "Canva",
+    "Microsoft Office Suite",
     "Voice Performance",
     "Songwriting",
-    "Sound Healing",
-    "Music Therapy",
-    "Early Childhood Education",
-    "Theater Composition",
     "Voiceover & Narration",
-    "Curriculum Design",
-    "Yoga Instruction",
-    "Graphic Design",
-    "Copywriting",
-    "Workshop Facilitation",
   ],
 
   projects: [
@@ -67,6 +69,16 @@ export const siteConfig = {
         "Lead teacher for Tata Beb\u00e9s, a program for accompanied early learners (6 months\u20132 years)",
         "Creating dynamic curricula for families with children ages 0\u201310",
         "Waldorf and Montessori-inspired outdoor education focused on free play, music, and natural rhythms",
+      ],
+    },
+    {
+      company: "SF Bay Area, NYC & Arequipa",
+      title: "Freelance Childcare Provider & Educator",
+      dateRange: "2005 - Present",
+      bullets: [
+        "20+ years as babysitter and nanny for children ages 6 weeks to teens",
+        "Leading embodied voice and singing workshops with individuals and groups",
+        "Creating immersive music and play groups in English for Spanish-speaking families",
       ],
     },
     {
@@ -114,6 +126,14 @@ export const siteConfig = {
       dateRange: "",
       achievements: [
         "Voice and Music Healing certification with Sylvia Nakkach",
+      ],
+    },
+    {
+      school: "School of International Training (SIT)",
+      degree: "North Indian Arts & Culture",
+      dateRange: "2009",
+      achievements: [
+        "Semester in Delhi, India — experiential Hindustani music (sitar and voice) and cultural research",
       ],
     },
     {
