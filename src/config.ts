@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Carina Renner",
-  title: "Performing Artist | Educator | Writer",
-  description: "Performing artist, poet, songwriter, educator, and group facilitator with 22+ years of experience guiding young people and 32 years of live performance.",
+  title: "Writer \u2022 Voice Artist \u2022 Creator \u2022 Educator",
+  description: "Writer, voice artist, creator, and educator. Story writer/editor and QA lead for EdTech. Performing artist with 22+ years guiding young people and 32 years of live performance.",
 
   // 2-color system: teal (gem turquoise) + purple (gem amethyst)
   accentColor: "#0d9488",
@@ -15,7 +15,7 @@ export const siteConfig = {
   ],
 
   // Hero tagline
-  tagline: "Performing artist, poet, songwriter, educator, and group facilitator. 22 years experience guiding young people. 32 years of live performance.",
+  tagline: "Creative solutions and collaborations to meet daily surprises. Performing artist, writer, editor, voice enthusiast, songwriter, educator, and group facilitator.",
 
   social: {
     email: "carina.renner@gmail.com",
@@ -26,7 +26,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Mother to two young children, lifelong creative and learner. Carina is an actor, writer, editor, vocalist, songwriter, educator and healing practitioner. A multi-disciplinary medicine woman. 22 years experience educating young people in a variety of roles; group and 1:1 educator/tutor. 25 years of live performance, including composition, writing and collaboration for theater, music, film, tv and dance. Co-founder of the award\u2011winning Masamama Bakery in Arequipa, Per\u00fa.",
+    "Creative solutions and collaborations to meet daily surprises. Mother to two young children, lifelong creative and learner.<br><br>Performing artist, writer, editor, voice enthusiast, songwriter, educator, and group facilitator. 22 years experience educating young people in a variety of roles; group and 1:1 educator/tutor. 25 years of live performance, including composition, writing and collaboration for theater, music, film, tv and dance. Co-founder of the award\u2011winning Masamama Bakery in Arequipa, Per\u00fa.<br><br>Creative writing and editing for various media. Online marketing across all social media platforms. Graphic design and editing. Detail oriented, perfectionist team player. Excellent communicator.",
 
   skills: [
     "Early Childhood Education",
@@ -46,6 +46,12 @@ export const siteConfig = {
   ],
 
   projects: [
+    {
+      name: "Paloma Learning",
+      description: "Story writer/editor and QA lead for an EdTech company creating decodable, engaging content for children grades K-2. Built stories from scratch and edited AI-generated drafts. Currently leading system-wide quality assurance for all teams and users.",
+      link: "",
+      skills: ["Writing", "Editing", "QA", "EdTech", "AI", "LLM"],
+    },
     {
       name: "Tata Educaci\u00f3n",
       description: "Founding parent-member and lead teacher at an innovative outdoor early education center in Arequipa, Per\u00fa. Creating Waldorf and Montessori-inspired curricula for families with children ages 0\u201310.",
