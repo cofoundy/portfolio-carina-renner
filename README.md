@@ -2,7 +2,7 @@
 
 Portafolio profesional.
 
-**Live:** *Se actualizará después del deploy*
+**Live:** [carina-renner.cofoundy.dev](https://carina-renner.cofoundy.dev/)
 
 ## Tech Stack
 
